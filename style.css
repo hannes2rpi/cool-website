@@ -1,9 +1,19 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: auto;
+  background-color: #fbf2fc;
+  color: #231f24;
+  font-size: 20;
+  font-weight: 500;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #c172cf;
+  color: #000000;
 }
 
 li {
@@ -19,9 +29,26 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #5d3763;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #231f24;
+}
+
+.content {
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  padding: 30px;
+  height: 500px;
+  background-color: #fefaff;
+  border-radius: 25px;
+}
+
+.box-text {
+  padding: 25px;
+  padding-top: 180px;
 }
