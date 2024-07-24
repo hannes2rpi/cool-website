@@ -52,3 +52,15 @@ li a:hover {
   padding: 25px;
   padding-top: 180px;
 }
+
+.hobbies {
+  font-family: "Noto Sans", sans-serif;
+  color: #231f24;
+  font-size: 20;
+  font-weight: 500;
+  width: 160px;
+  height: 45px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #fefaff;
+}
