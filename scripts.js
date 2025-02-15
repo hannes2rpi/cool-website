@@ -6,17 +6,21 @@ function changeHobby() {
     let hobbySelection = document.getElementById("hobbies")
     hobbySelection.addEventListener("change", function(){
         if (hobbies.value == "cooking"){
-            var text = "i like cooking!";
+            var text = "Check out this wholesome vegan meal!";
             document.getElementById("response").innerHTML = text;
             console.log("Changed to cooking");
-        }else if (hobbies.value == "gaming"){
-            var text = "i like gaming!";
+        }else if (hobbies.value == "minecraft"){
+            var text = "here is my awesome minecraft roller coaster!";
             document.getElementById("response").innerHTML = text;
-            console.log("Changed to gaming");
-        }else if (hobbies.value == "security"){
-            var text = "i like security!";
+            console.log("Changed to minecraft");
+        }else if (hobbies.value == "league"){
+            var text = "Check out this amazing Seraphine ult";
             document.getElementById("response").innerHTML = text;
-            console.log("Changed to security");
+            console.log("Changed to league");
+        }else if (hobbies.value == "rivals"){
+            var text = "Check out this amazing Namor ult";
+            document.getElementById("response").innerHTML = text;
+            console.log("Changed to rivals");
         }
     })  
 }
