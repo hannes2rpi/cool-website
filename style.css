@@ -5,6 +5,7 @@ body {
   color: #231f24;
   font-size: 20;
   font-weight: 500;
+  width: 100%;
 }
 
 ul {
@@ -12,8 +13,13 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #c172cf;
-  color: #000000;
+  background-color: #800060;
+  color: #231f24;
+}
+
+a {
+  text-decoration: none;
+  color: #231f24;
 }
 
 li {
@@ -22,45 +28,142 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #fbf2fc;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #5d3763;
+  background-color: #fbf2fc;
+  color: #231f24;
+}
+
+img {
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #800060;
+  border-style: groove;
 }
 
 .active {
-  background-color: #231f24;
+  background-color: #8A7BF9;
+  color: #231f24;
 }
 
 .content {
   text-align: center;
+  padding: 40px;
 }
 
 .boxes {
   display: flex;
   padding: 30px;
-  height: 500px;
-  background-color: #fefaff;
-  border-radius: 25px;
+  height: 10em;
+  justify-content: center;
+}
+
+.boxes2 {
+  display: flex;
+  width: 25em;
 }
 
 .box-text {
   padding: 25px;
-  padding-top: 180px;
+  padding-top: 100px;
 }
 
 .hobbies {
-  font-family: "Noto Sans", sans-serif;
   color: #231f24;
-  font-size: 20;
+  font-size: 20px;
   font-weight: 500;
-  width: 160px;
-  height: 45px;
-  padding: 5px;
+  width: 12em;
+  height: 60px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-color: #800060;
   border-radius: 10px;
-  background-color: #fefaff;
+  border-width: 2px;
+}
+
+.normal-center {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.name {
+  font-size: 60px;
+  font-family: "Bitcount Grid Double", system-ui;
+  font-weight: 500;
+  font-style: light;
+}
+
+.cert_boxes {
+  display: flex;
+  padding: 30px;
+  height: 10em;
+  justify-content: center;
+}
+
+.cert_boxes2 {
+  display: flex;
+  width: 25em;
+  justify-content: center;
+}
+
+.project_boxes {
+  display: flex;
+  padding: 30px;
+  height: 350px;
+  justify-content: center;
+}
+
+.project_boxes2 {
+  display: flex;
+  width: 40em;
+  justify-content: center;
+}
+
+.project_boxes_smaller {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.project_boxes2_smaller {
+  display: flex;
+  width: 40em;
+  padding: 2em;
+  justify-content: center;
+}
+
+.content2 {
+  text-align: center;
+}
+
+.hobbies_boxes {
+  display: flex;
+  padding: 10px;
+  height: 350px;
+  justify-content: center;
+}
+
+.hobbies_boxes2 {
+  display: flex;
+  width: 40em;
+  justify-content: center;
+}
+
+.hobbies_boxes_smaller {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.hobbies_boxes2_smaller {
+  display: flex;
+  width: 40em;
+  padding: 1em;
+  justify-content: center;
 }
