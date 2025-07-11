@@ -30,7 +30,7 @@ li a {
   display: block;
   color: #fbf2fc;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.65em 0.65em;
   text-decoration: none;
 }
 
@@ -40,10 +40,10 @@ li a:hover {
 }
 
 img {
-  border-radius: 15px;
-  border-width: 2px;
+  border-radius: 0.75em;
+  border-width: 0.15em;
   border-color: #800060;
-  border-style: groove;
+  border-style: outset;
 }
 
 .active {
@@ -53,12 +53,12 @@ img {
 
 .content {
   text-align: center;
-  padding: 40px;
+  padding: 3em;
 }
 
 .boxes {
   display: flex;
-  padding: 30px;
+  padding: 2em;
   height: 10em;
   justify-content: center;
 }
@@ -69,8 +69,8 @@ img {
 }
 
 .box-text {
-  padding: 25px;
-  padding-top: 100px;
+  padding: 1.5em;
+  padding-top: 3em;
 }
 
 .hobbies {
@@ -78,18 +78,19 @@ img {
   font-size: 20px;
   font-weight: 500;
   width: 12em;
-  height: 60px;
-  padding: 8px 10px;
+  height: 3em;
+  padding: 0.5em 0.5em;
   cursor: pointer;
   border-color: #800060;
-  border-radius: 10px;
-  border-width: 2px;
+  border-radius: 0.75em;
+  border-width: 0.15em;
+  border-style: outset;
 }
 
 .normal-center {
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 4em;
 }
 
 .name {
@@ -101,7 +102,7 @@ img {
 
 .cert_boxes {
   display: flex;
-  padding: 30px;
+  padding: 3em;
   height: 10em;
   justify-content: center;
 }
@@ -114,27 +115,18 @@ img {
 
 .project_boxes {
   display: flex;
-  padding: 30px;
-  height: 350px;
+  padding: 3em;
   justify-content: center;
 }
 
 .project_boxes2 {
-  display: flex;
   width: 40em;
-  justify-content: center;
-}
-
-.project_boxes_smaller {
-  display: flex;
-  height: 100px;
   justify-content: center;
 }
 
 .project_boxes2_smaller {
-  display: flex;
-  width: 40em;
-  padding: 2em;
+  width: 30em;
+  padding: 3em;
   justify-content: center;
 }
 
@@ -143,27 +135,202 @@ img {
 }
 
 .hobbies_boxes {
-  display: flex;
-  padding: 10px;
-  height: 350px;
+  display: inline;
+  padding: 2em;
   justify-content: center;
 }
 
 .hobbies_boxes2 {
-  display: flex;
-  width: 40em;
-  justify-content: center;
-}
-
-.hobbies_boxes_smaller {
-  display: flex;
-  height: 100px;
+  width: 100%;
   justify-content: center;
 }
 
 .hobbies_boxes2_smaller {
-  display: flex;
-  width: 40em;
-  padding: 1em;
   justify-content: center;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#img1 {
+  width: 15.5em;
+  height: 20em;
+}
+
+#img2 {
+  width: 30em;
+}
+
+#img3 {
+  width: 16em;
+  height: 16em;
+}
+
+#img4 {
+  width: 25em;
+  height: 12em;
+}
+
+#img5 {
+  width: 20em;
+  width: 20em;
+}
+
+#img6 {
+  width: 12em;
+  height: 16em;
+}
+
+@media only screen 
+and (max-device-width: 600px) {
+  body {
+    font-family: "Noto Sans", sans-serif;
+    margin: auto;
+    background-color: #fbf2fc;
+    color: #231f24;
+    font-size: 11;
+    font-weight: 350;
+    width: 100%;
+  }
+
+  .name {
+    font-size: 32px;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 500;
+    font-style: light;
+  }
+
+  .boxes {
+    display: inline;
+    padding: 2em;
+    height: 10em;
+  }
+
+  .boxes2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .box-text {
+    padding: 3em;
+    font-size: 12px;
+  }
+
+  .cert_boxes {
+    display: inline;
+    padding: 3em;
+    height: 10em;
+  }
+
+  .cert_boxes2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }
+
+  .project_boxes {
+    display: inline;
+    padding: 3em;
+    justify-content: center;
+  }
+
+  .project_boxes2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .project_boxes2_smaller {
+    width: 100%;
+    justify-content: center;
+    padding: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .hobbies {
+    color: #231f24;
+    font-size: 12px;
+    font-weight: 500;
+    width: 12em;
+    height: 3em;
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+    border-color: #800060;
+    border-radius: 0.75em;
+    border-width: 0.15em;
+    border-style: outset;
+  }
+}
+
+@media only screen 
+and (min-device-width: 601px)
+and (max-device-width: 1200px) {
+  body {
+    font-family: "Noto Sans", sans-serif;
+    margin: auto;
+    background-color: #fbf2fc;
+    color: #231f24;
+    font-size: 16;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  .name {
+    font-size: 48px;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 500;
+    font-style: light;
+  }
+
+  .boxes {
+    display: inline;
+    padding: 2em;
+    height: 10em;
+  }
+
+  .boxes2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .box-text {
+    padding: 3em;
+  }
+
+  .cert_boxes {
+    display: inline;
+    padding: 3em;
+    height: 10em;
+  }
+
+  .cert_boxes2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }
+
+  .project_boxes {
+    display: inline;
+    padding: 3em;
+    justify-content: center;
+  }
+
+  .project_boxes2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .project_boxes2_smaller {
+    width: 100%;
+    justify-content: center;
+    padding: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 }
