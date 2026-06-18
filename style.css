@@ -1,7 +1,7 @@
 body {
   font-family: "Noto Sans", sans-serif;
   margin: auto;
-  background-color: #fbf2fc;
+  background-color: white;
   color: #231f24;
   font-size: 20;
   font-weight: 500;
@@ -13,8 +13,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #800060;
-  color: #231f24;
+  background-color: black;
+  color: #5bff7f;
 }
 
 a {
@@ -28,27 +28,27 @@ li {
 
 li a {
   display: block;
-  color: #fbf2fc;
+  color: #5bff7f;
   text-align: center;
   padding: 0.65em 0.65em;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #fbf2fc;
-  color: #231f24;
+  background-color: #5bff7f;
+  color: black;
 }
 
 img {
   border-radius: 0.75em;
   border-width: 0.15em;
-  border-color: #800060;
+  border-color: black;
   border-style: outset;
 }
 
 .active {
-  background-color: #8A7BF9;
-  color: #231f24;
+  background-color: #5bff7f;
+  color: black;
 }
 
 .content {
@@ -81,7 +81,7 @@ img {
   height: 3em;
   padding: 0.5em 0.5em;
   cursor: pointer;
-  border-color: #800060;
+  border-color: black;
   border-radius: 0.75em;
   border-width: 0.15em;
   border-style: outset;
