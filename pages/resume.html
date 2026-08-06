@@ -3,6 +3,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../style.css"/>
+	<script src="../scripts.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap" rel="stylesheet">
@@ -17,8 +18,16 @@
 		<li><a href="hobbies.html">Hobbies</a></li>
 		<li style="float:right"><a href="https://github.com/hannes2rpi/cool-website">GitHub</a></li>
 	</ul>
-	<div class="normal-center">
-			<a href="sydney_hannert_resume.pdf"><img src="../img/resume.png" id="img2" alt="image of Sydney Hannert's resume"></a>
+	<div class="content">
+		<h1>Select a Resume</h1>
+		<select name="resume" class="resume" id="resume">
+			<option value="security">Security</option>
+			<option value="webdev">Web Dev</option>
+		</select>
+	</div><br>
+	<div class="content2" id="response">
+		<a href="Sydney_Hannert_Security_Resume.pdf"><img src="../img/security_resume.png" id="img2" alt="image of Sydney Hannert's resume, security style"></a>
 	</div>
+	<br>
 </body>
 </html>
