@@ -87,6 +87,20 @@ img {
   border-style: outset;
 }
 
+.resume {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  width: 12em;
+  height: 3em;
+  padding: 0.5em 0.5em;
+  cursor: pointer;
+  border-color: black;
+  border-radius: 0.75em;
+  border-width: 0.15em;
+  border-style: outset;
+}
+
 .normal-center {
   display: flex;
   justify-content: center;
@@ -244,6 +258,20 @@ and (max-device-width: 600px) {
   }
 
   .hobbies {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    width: 12em;
+    height: 3em;
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 0.75em;
+    border-width: 0.15em;
+    border-style: outset;
+  }
+
+  .resume {
     color: black;
     font-size: 12px;
     font-weight: 500;
