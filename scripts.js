@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     changeHobby()
-    changeResume()
 })
 
 function changeHobby() {
@@ -15,23 +14,6 @@ function changeHobby() {
                 var text = "More coming soon! Should I add gaming, crocheting, or web design next? OH I could've just screenshoted this website. Check out my website... on my website! Hmm maybe I should add comedy instead lol.";
                 document.getElementById("response").innerHTML = text;
                 console.log("Changed to more");
-            }
-        })  
-    }
-}
-
-function changeResume() {
-    if (document.getElementById("resume") != null){
-        let resumeSelection = document.getElementById("resume")
-        resumeSelection.addEventListener("change", function(){
-            if (resume.value == "security"){
-                var text = "<a href='Sydney_Hannert_Security_Resume.pdf'><img src='../img/security_resume.png' id='img2' alt='image of Sydney Hannert's resume, security style'></a>";
-                document.getElementById("response").innerHTML = text;
-                console.log("Changed to security");
-            }else if (resume.value == "webdev"){
-                var text = "<a href='Sydney_Hannert_Webdev_Resume.pdf'><img src='../img/webdev_resume.png' id='img2' alt='image of Sydney Hannert's resume, web dev style'></a>";
-                document.getElementById("response").innerHTML = text;
-                console.log("Changed to webdev");
             }
         })  
     }
